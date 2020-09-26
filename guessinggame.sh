@@ -2,7 +2,7 @@
 #! /bin/bash
 function guess{
 condition=1
-l=$(ls  | wc -w)
+l=$(ls -a| wc -w)
 while [[ $condition -gt 0 ]]
 do
         echo "Enter Your guess:"

@@ -1,4 +1,3 @@
-
 #! /bin/bash
 function guess {
 condition=1

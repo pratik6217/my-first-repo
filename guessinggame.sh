@@ -1,5 +1,6 @@
 
 #! /bin/bash
+function guess{
 condition=1
 l=$(ls  | wc -w)
 while [[ $condition -gt 0 ]]
@@ -18,3 +19,6 @@ do
                 echo "Your guess is too high!"
         fi
 done
+}
+
+guess

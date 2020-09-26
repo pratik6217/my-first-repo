@@ -1,6 +1,6 @@
 
 #! /bin/bash
-function guess{
+function guess {
 condition=1
 l=$(ls -a| wc -w)
 while [[ $condition -gt 0 ]]
